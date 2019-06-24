@@ -215,3 +215,14 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/* // Extra small devices (portrait phones, less than 640px) */
+@media (max-width: 640px) { ... }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) { ... }
+
+/* // Medium devices (tablets, less than 980px) */
+@media (max-width: 980px) { ... }
+
+
