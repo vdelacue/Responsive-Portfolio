@@ -217,7 +217,21 @@ input[type=submit] {
 }
 
 /* // Extra small devices (portrait phones, less than 640px) */
-@media (max-width: 640px) { ... }
+@media (max-width: 640px) { 
+
+ 
+  }
+  nav {
+    float: none;
+    clear: both;
+    padding: 20px;
+    
+  }
+  section .main-section {
+    margin-top: 20px;
+  }
+  
+ }
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 768px) { ... }
