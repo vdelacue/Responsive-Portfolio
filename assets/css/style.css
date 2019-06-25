@@ -227,23 +227,23 @@ input[type=submit] {
 
   .main-section {
     position: relative;
+    width: 95%;
+    padding-right: 5%;
     /* margin: 60px 0px 20px 0px; */
   }
 
   #masthead {
-    width: 97%;
-    padding-right: 3%;
+    width: 93%;
+    padding-right: 5%;
   }
 
-  /* #formC {
-    width: 70%;
-  } */
-  .work {
+
+  /* .work {
    
     margin: auto;
     width: 75%;
     position: relative;
-  }
+  } */
   /* #aboutMeH #porfolioH {
     text-align: left;
   }
@@ -256,7 +256,7 @@ input[type=submit] {
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 768px) {
-  
+
   #formC {
     width: 97%;
   }
@@ -270,13 +270,14 @@ input[type=submit] {
     width: 97%;
     padding-right: 3%;
   }
-
-  .work {
+/* BELOW IS SOME CODE THAT WAS PLAYED AROUND WITH TO TEST RESPONSIVENESS
+UNTIL DESIRED LAYOUT AND VIEW WAS ACHIEVED */
+  /* .work {
    
     margin: auto;
     width: 75%;
     position: relative;
-  }
+  } */
   /* #aboutMeH #porfolioH {
     text-align: left;
   }
@@ -325,6 +326,3 @@ input[type=submit] {
   }
 
 }
-
-
-
